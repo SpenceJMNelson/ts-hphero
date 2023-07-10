@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'GT Super Display Light';
+  src: url('GT-Super-Display-Light.otf');
+}
+
+@font-face {
+  font-family: 'GT Super Display Light Italic';
+  src: url('GT-Super-Display-Light-Italic.otf');
+}
+
+body{
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color:#ffffff;
+}
+
+::selection {
+  background: #FFE06A; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #FFE06A; /* Gecko Browsers */
+}
+
+a.ts-button {
+  display: inline-block;
+  border: 2px solid black;
+  font-family: "Helvetica";
+  font-weight:bold;
+  text-transform: uppercase;
+  padding:.8em 1.2em;
+  margin-right:1em;
+  position: relative;
+  margin-top: 30px;
+  letter-spacing:.3em;
+  font-size: 14px;
+}
+
+
+a.ts-button:hover{
+  color:#ffffff;
+    background:#000000;
+}
+
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding:2em;
+  position: fixed;
+  left:0;
+  right:0;
+}
+
+.imagelayerframe {
+  width:50%;
+  height:100%;
+  position:absolute;
+  right:0;
+}
+.imagelayer{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  height:60vw;
+  width:60vw;
+}
+
+.imagelayer img {
+  width:100%;
+  height:auto;
+}
+
+.hero-text {
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  margin-left:2vw;
+}
+
+.hero-text h1 {
+  font-size: 12vw;
+  line-height: 1;
+  font-family: "GT Super Display Light";
+  font-weight: 100;
+  margin:0;
+  letter-spacing: -.05em;
+  margin-bottom: .3em;
+}
+
+h1 em {
+  font-family: "GT Super Display Light Italic";
+  font-style: normal;
+}
+
+.hero-text h1 span {
+  display: inline-block;
+}
+
+.hero-text h1 .underline {
+  width:100%;
+  height:auto;
+  position: absolute;
+  bottom:-.1em;
+}

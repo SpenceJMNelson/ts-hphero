@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - GSAP Layers interacts with mouse move1</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<div class="nav">
+  <svg width="260" height="62" viewBox="0 0 260 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_509_444)">
+<path d="M17.3188 14.0978H9.42282V39.487C9.42282 45.3763 12.1711 45.9434 17.2752 45.7689V48.1246C11.7349 48.4736 6.45638 47.6884 6.71812 39.487V14.0978H0V11.7421H6.71812V0.0944054H9.42282V11.7421H17.3624V14.0978H17.3188ZM22.7718 0.0507812V19.5072H22.9027C24.7349 14.0541 30.2752 10.8696 35.9027 10.8696C48.7282 10.8696 48.8591 21.1213 48.8591 25.5709V48.081H46.1544V25.1347C46.1544 21.383 45.7181 13.2689 35.8154 13.2689C27.6577 13.2689 22.7282 19.5508 22.7282 28.4937V48.1682H20.0235V0.0507812H22.7718V0.0507812ZM54.6611 19.8125H54.8792C56.2752 15.0575 62.2517 11.2622 68.7953 11.5239V14.2286C65.9597 13.8796 61.9899 14.5776 58.7617 17.7622C56.0571 20.5105 54.9228 22.779 54.6611 28.232V48.1246H51.9564V11.7421H54.6611V19.8125V19.8125ZM69.0571 30.2823C68.9262 38.8327 73.4631 46.6414 82.4497 46.6414C89.2987 46.6414 94.1846 42.5407 95.4497 35.8226H98.1544C96.7584 44.3293 91.0873 48.9971 82.4497 48.9971C71.849 48.9971 66.2651 40.6649 66.396 30.5877C66.2651 20.5978 71.5 10.9132 82.4497 10.9132C93.8356 10.9132 98.9396 19.8998 98.4597 30.2823H69.0571V30.2823ZM95.755 27.9266C95.6242 20.2924 90.8255 13.2253 82.4497 13.2253C74.3792 13.2253 69.6242 20.7286 69.0571 27.9266H95.755ZM103.302 30.2823C103.171 38.8327 107.708 46.6414 116.695 46.6414C123.544 46.6414 128.43 42.5407 129.695 35.8226H132.399C131.003 44.3293 125.332 48.9971 116.695 48.9971C106.094 48.9971 100.51 40.6649 100.641 30.5877C100.51 20.5978 105.745 10.9132 116.695 10.9132C128.081 10.9132 133.185 19.8998 132.705 30.2823H103.302V30.2823ZM129.956 27.9266C129.826 20.2924 124.983 13.2253 116.651 13.2253C108.581 13.2253 103.826 20.7286 103.258 27.9266H129.956ZM137.154 35.9971C137.591 42.7152 142.607 46.5978 149.195 46.5978C153.95 46.5978 160.711 45.2018 160.711 38.8763C160.711 32.7253 154.473 31.8092 148.279 30.5441C141.997 29.279 135.758 27.6649 135.758 20.2051C135.758 13.0072 142.782 10.8696 148.933 10.8696C156.654 10.8696 162.369 14.185 162.369 22.4736H159.664C159.577 15.8864 154.997 13.2253 148.889 13.2253C143.916 13.2253 138.419 15.0575 138.419 20.2488C138.419 26.0508 144.658 26.9669 150.503 28.232C157.701 29.5843 163.373 31.2857 163.373 38.9199C163.373 46.7723 155.52 48.9535 149.151 48.9535C140.862 48.9535 134.668 44.5038 134.45 35.9971H137.154ZM168.695 20.0743H168.826C169.96 16.4535 174.06 10.8696 182.044 10.8696C193.211 10.8696 198.403 19.7253 198.403 29.977C198.403 41.0139 193.168 48.9535 182.044 48.9535C176.024 48.9535 170.919 46.4233 168.826 40.534H168.695V61.1246H165.99V11.7421H168.695V20.0743V20.0743ZM195.742 29.977C195.742 21.6884 191.859 13.2253 182.087 13.2253C172.403 13.2253 168.782 21.383 168.782 29.977C168.782 38.6145 171.836 46.5978 182.087 46.5978C191.554 46.6414 195.742 38.9635 195.742 29.977ZM217.248 10.9132C227.936 10.9132 233.956 19.5944 233.956 29.9333C233.956 40.2723 227.936 48.9535 217.248 48.9535C206.56 48.9535 200.54 40.2286 200.54 29.9333C200.54 19.5944 206.56 10.9132 217.248 10.9132V10.9132ZM217.248 46.6414C226.366 46.6414 231.252 38.6582 231.252 29.9333C231.252 21.2521 226.366 13.2253 217.248 13.2253C208.131 13.2253 203.245 21.2085 203.245 29.9333C203.245 38.6145 208.131 46.6414 217.248 46.6414ZM249.138 14.0978H241.198V39.487C241.198 45.3763 243.946 45.9434 249.05 45.7689V48.1246C243.51 48.4736 238.232 47.6884 238.493 39.487V14.0978H231.775V11.7421H238.493V0.0944054H241.198V11.7421H249.138V14.0978ZM255.245 48.1682V43.2387H260V48.1682H255.245Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_509_444">
+<rect width="260" height="61.1765" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
+<svg width="52" height="39" viewBox="0 0 52 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="52" height="3" fill="black"/>
+<rect y="18" width="52" height="3" fill="black"/>
+<rect y="36" width="52" height="3" fill="black"/>
+</svg>
+
+</div>
+
+<div class="imagelayerframe imagelayerframe-1">
+  <div class="imagelayer mouseparallax imagelayer_3">
+     <div class="imagewrapper">
+       <img src="hero-img/slide1-layer3.webp"/>
+     </div>
+  </div>
+  <div class="imagelayer mouseparallax imagelayer_2">
+    <div class="imagewrapper">
+      <img src="hero-img/slide1-layer2.webp"/>
+    </div>
+  </div>
+    <div class="imagelayer mouseparallax imagelayer_1">
+      <div class="imagewrapper">
+        <img src="hero-img/slide1-layer1.webp"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="imagelayerframe imagelayerframe-2">
+    <div class="imagelayer mouseparallax imagelayer_3">
+       <div class="imagewrapper">
+         <img src="hero-img/slide2-layer3.webp"/>
+       </div>
+    </div>
+    <div class="imagelayer mouseparallax imagelayer_2">
+      <div class="imagewrapper">
+        <img src="hero-img/slide2-layer2.webp"/>
+      </div>
+    </div>
+      <div class="imagelayer mouseparallax imagelayer_1">
+        <div class="imagewrapper">
+          <img src="hero-img/slide2-layer1.webp"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="imagelayerframe imagelayerframe-3">
+      <div class="imagelayer mouseparallax imagelayer_3">
+         <div class="imagewrapper">
+           <img src="hero-img/slide3-layer3.webp"/>
+         </div>
+      </div>
+      <div class="imagelayer mouseparallax imagelayer_2">
+        <div class="imagewrapper">
+          <img src="hero-img/slide3-layer2.webp"/>
+        </div>
+      </div>
+        <div class="imagelayer mouseparallax imagelayer_1">
+          <div class="imagewrapper">
+            <img src="hero-img/slide3-layer1.webp"/>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-text">
+        <div class="text-wrap mouseparallax">
+          <h1><span>Make</span> <span>things</span> <span>that</span> <span><img class="underline" src="line.svg"><em>move</em></span> <span>people.</span></h1>
+          <a class="ts-button">Let’s work together</a><a class="ts-button">learn about our work</a>
+        </div>
+      </div>
+<!-- partial -->
+  <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
