@@ -62,10 +62,12 @@ a.ts-button:hover{
 .imagelayer{
   position:absolute;
   top: 50%;
-  left: 50%;
+  left: 40%;
   transform:translate(-50%,-50%);
   height:60vw;
   width:60vw;
+  max-height:800px;
+  max-width:800px;
 }
 
 .imagelayer img {
@@ -81,13 +83,14 @@ a.ts-button:hover{
 }
 
 .hero-text h1 {
-  font-size: 12vw;
+  font-size: 11vw;
   line-height: 1;
   font-family: "GT Super Display Light";
   font-weight: 100;
   margin:0;
   letter-spacing: -.05em;
   margin-bottom: .3em;
+  width:70vw;
 }
 
 h1 em {
@@ -104,4 +107,12 @@ h1 em {
   height:auto;
   position: absolute;
   bottom:-.1em;
+}
+
+@media only screen and (min-width: 1280px)  {
+  .hero-text h1 {
+    font-size: 145px;
+    width:1000px;
+  }
+
 }
