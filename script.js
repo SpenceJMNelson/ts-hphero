@@ -70,4 +70,3 @@ gsap.timeline({repeat: -1}).to(".imagelayerframe-1 .imagewrapper",{opacity:1, x:
 
 gsap.timeline().from(".text-wrap h1 span",{y:100, opacity:0, duration:.6, stagger:0.15, ease:Circ.easeOut})
               .from(".text-wrap .ts-button",{y:30, opacity:0, duration:.6, stagger:0.15, ease:Circ.easeOut}, "-=.5")
-              .from(".text-wrap .underline",{x:-60, opacity:0, duration:.6, ease:Circ.easeOut})
