@@ -119,11 +119,7 @@ h1 em {
   background-repeat: no-repeat;
   position:absolute;
   bottom:-.2em;
-  -webkit-mask-image: url("https://d33wubrfki0l68.cloudfront.net/d319533ac3d22c3186498254e0caee871796a29e/d7ce9/images/css/masking/image-mask.png");
-  -webkit-mask-size: 100% 100%;
-  -webkit-mask-position: 100% 75%;
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-mode: alpha;
+
 }
 
 
